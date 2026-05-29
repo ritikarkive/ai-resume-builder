@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/clerk-react'
-import Builder from './pages/Builder.jsx'
+import Builder from './pages/builder.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 
 function App() {
