@@ -12,7 +12,7 @@ function Dashboard({ onBuildNew }) {
     const fetchResumes = async () => {
       try {
         const token = await getToken()
-        const response = await fetch('http://localhost:5000/resumes', {
+       const response = await fetch('https://ai-resume-builder-mzyf.onrender.com/resumes', {
           headers: { 'Authorization': `Bearer ${token}` }
         })
         const result = await response.json()

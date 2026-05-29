@@ -71,7 +71,7 @@ function Builder() {
     setLoading(true)
     try {
       const token = await getToken()
-const response = await fetch('http://localhost:5000/generate', {
+const response = await fetch('https://ai-resume-builder-mzyf.onrender.com/generate', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
